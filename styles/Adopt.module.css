@@ -1,0 +1,72 @@
+.mainContainer {
+    background-image: url("/ferret-background-adopt.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.someText {
+    color: antiquewhite;
+    position: absolute;
+    display: inline-block;
+    top: 45%;
+    left: 45%;
+}
+
+/*Info below background image*/
+
+.infoContainer {
+    display: flex;
+    width: 80%;
+    margin: 10rem auto;
+    gap: 4rem;
+}
+
+.textContainer {
+    flex: 0 50%;
+}
+
+.para {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.imgContainer {}
+
+.img {
+    flex: 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .infoContainer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .someText {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .infoContainer {
+        width: 95%;
+    }
+
+    .someText {
+        left: 47%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .someText {
+        left: 47%;
+    }
+}

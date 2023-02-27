@@ -1,0 +1,66 @@
+.mainContainer {
+    background-image: url("/ferret-background-surrender.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.someText {
+    position: absolute;
+    display: inline-block;
+    top: 40%;
+    left: 55%;
+    color: antiquewhite;
+}
+
+/*Info below background image*/
+
+.infoContainer {
+    display: flex;
+    width: 80%;
+    margin: 10rem auto;
+    gap: 4rem;
+}
+
+.textContainer {
+    flex: 0 50%;
+}
+
+.para {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.imgContainer {}
+
+.img {
+    flex: 0 50%;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .infoContainer {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+    .infoContainer {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .someText {
+        top: 55%;
+        left: 30%;
+        color: white;
+    }
+}

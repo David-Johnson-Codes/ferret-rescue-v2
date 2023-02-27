@@ -1,0 +1,20 @@
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 7rem;
+    background: #ACBFC5;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .footerContainer {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {}
